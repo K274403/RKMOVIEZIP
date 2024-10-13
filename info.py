@@ -15,18 +15,18 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '21527086'))
 API_HASH = environ.get('API_HASH', '11caabfc20fca699feff0c24213b1a80')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7401908453:AAFrL_IpdAWDlvnO-zJmlIDqOwhtAfM8zEg')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7399204341:AAEV1MPNDbqF9k3eIi_Q-3k17m5E9mnejHA')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1798348973').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Looterekrish") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002186335716'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'http://t.me/rkmovieszip')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'http://t.me/cinemaa_time')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002081004430').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Lootere:Lootere@lootere.xlo7d.mongodb.net/?retryWrites=true&w=majority&appName=Lootere")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Rkmoviezip:Rkmoviezip@rkmoviezip.p44e8.mongodb.net/?retryWrites=true&w=majority&appName=Rkmoviezip")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Rkmoviezip")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -35,10 +35,10 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002186335716'))  # set s
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002186335716'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002023191399')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002156162334'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001779982100'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002156162334') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002156162334')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/cinemaa_time') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+RtQPILy6K2RlYWZl') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', False)
